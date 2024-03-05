@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+   <!--MENU ENCABEZADO--> 
+   <div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Ximena</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+        </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fas fa-bars"></i>
+
+            </div>
+        
+    </header>
+   </div>
+
+    <!--SECCION INICIO-->
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+       <div class="contenedor-img">
+       <img src="img/xime.png" alt="">
+    </div>
+    
+    <h1>XIMENA ORTEGA</h1>
+    <h2>Desarrolladora Web</h2>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     </div>
+    </div>
+    
+</section>
+
+<!--SECCION SOBRE MI-->
+<section id="sobremi" class="sobremi">
+ <div class="contenido-seccion">
+    <h2>Sobre mi</h2>
+    <p><span>Hola,soy Ximena Ortega </span>Soy una apasionada desarrolladora web junior con experiencia sólida en la gestión de datos y desarrollo frontend. Me especializo en la creación de interfaces de usuario, combinando habilidades en HTML, CSS y JavaScript. He trabajado en proyectos que involucran la manipulación eficiente de datos, utilizando tecnologías como SQL.</p>
+
+    <div class="fila">
+    <!--datos personales-->
+    <div class="col">
+        <h3>Datos Personales</h3>
+        <ul>
+           <li>
+            <strong>Fecha de nacimiento</strong>
+            26-05-2003
+           </li> 
+           <li>
+            <strong>Telefono</strong>
+            3105491734
+           </li>
+        <li>
+            <strong>Gmail</strong>
+            ximenaortega729@gmail.com
+        </li>
+        <li>
+            <strong>Direccion</strong>
+            crr 117 cll 39D 100 int 115       
+        </li>
+        </ul>
+
+    </div>
+    <!--intereses-->
+    <div class="col">
+        <h3>Intereses</h3>
+        <div class="contenido-intereses">
+            <div class="interes">
+                <i class="fa-solid fa-database"></i>
+                <span>Base de datos</span>
+             </div>
+
+             <div class="interes">
+                <i class="fa-solid fa-palette"></i>
+                <span>frontend</span>
+             </div>
+
+           
+        </div>
+
+    </div>
+    
+</div>
+<button>
+    DESCARGAR CV <i class="fa-solid fa-cloud-arrow-down"></i>
+    <span class="overlay"></span>
+</button>
+ </div> 
+</section>
+
+<!--SECCION SKILLS-->
+
+<section class="skills" id="skills">
+    <div class="contenedor-seccion">
+        <h2>Habilidades</h2>
+        <div class="fila">
+            <!--habilidades-->
+          <!--Profesional Skills-->
+          <div class="col">
+          <h3>  Tecnicas</h3>
+            <div class="skill">
+                <span>Javascript</span>
+                <div class="barra-skill">
+                    <div class="proceso">
+                        <span>56%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>HTML & CSS</span>
+                <div class="barra-skill">
+                    <div class="proceso">
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Bases de datos</span>
+                <div class="barra-skill">
+                    <div class="proceso">
+                        <span>72%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Java</span>
+                <div class="barra-skill">
+                    <div class="proceso">
+                        <span>41%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Scrum</span>
+                <div class="barra-skill">
+                    <div class="proceso">
+                        <span>89%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h3>  Profesionales</h3>
+              <div class="skill">
+                  <span>Comunicación</span>
+                  <div class="barra-skill">
+                      <div class="proceso">
+                          <span>70%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Trabajo en equipo</span>
+                  <div class="barra-skill">
+                      <div class="proceso">
+                          <span>85%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Creatividad</span>
+                  <div class="barra-skill">
+                      <div class="proceso">
+                          <span>82%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Liderazgo</span>
+                  <div class="barra-skill">
+                      <div class="proceso">
+                          <span>70%</span>
+                      </div>
+                  </div>
+              </div>
+              <div class="skill">
+                  <span>Trabajo bajo presión</span>
+                  <div class="barra-skill">
+                      <div class="proceso">
+                          <span>89%</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!--SECCION PORTAFOLIO-->
+<section id="portafolio" class="portafolio">
+    <div class="contenedor-seccion">
+        <h2>PORTAFOLIO</h2>
+        <div class="galeria">
+            <div class="proyectos">
+                <a href="https://rios06.github.io/To-Do-web/" class="proyecto">
+                <img src="img/lista.avif" alt="">
+                <div class="overlay">
+                    <h3>Lista de tareas</h3>
+                    <p>Fotografia</p></a>
+                </div>
+            </div>
+            <div class="proyectos">
+                <a href="https://4910247xro.github.io/Tar_digital/" class="proyecto">
+                <img src="img/targeta.jpg" alt="">
+                
+                <div class="overlay">
+                    <h3>Targeta digital</h3>
+                    <p>Fotografia</p></a>
+                </div>
+            </div>
+            <div class="proyectos">
+                <a href="https://app-countries2.vercel.app/" class="proyecto">
+                <img src="img/paises.jpg" alt="">
+                <div class="overlay">
+                    <h3>Pagina de paises</h3>
+                    <p>Fotografia</p></a>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+</section>
+
+<!--SECCION CONTACTO-->
+
+<section id="contacto" class="contacto">
+  <div class="contenedor-seccion">
+    <h2>CONTACTO</h2>
+    <div class="fila">
+       <!--Formulario-->
+       <div class="col">
+        <input type="text" placeholder="Nombre">
+        <input type="text" placeholder="Numero Telefonico">
+        <input type="text" placeholder="Direccion de correo">
+        <input type="text" placeholder="Tema">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+        <button>
+           Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+           <span class="overlay"></span>
+        </button>
+
+
+       </div> 
+       <!--mapa-->
+       <div class="col">
+        <img src="img/ubicacion.png" alt="">
+        <div class="informacion">
+            <ul>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                    crr 117 cll 39D 100 int 115- Medellin, Colombia
+                </li>
+                <li>
+                    <i class="fa-solid fa-mobile-screen"></i>
+                    3105491734
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    Gmail: Ximenaortega729@gmail.com
+                </li>
+            </ul>
+        </div>
+       </div>
+    </div>
+  </div>
+</section>
+
+<!--FOOTER-->
+<footer>
+    <a href="#inicio" class="arriba">
+    <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="redes">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+     </div>
+    
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
